@@ -30,4 +30,8 @@ public class Employee implements  Human{
         System.out.println("AB positive");
     }
 
+    @Override
+    public void salaries() {
+        System.out.println("my current ctc is 10LPA");
+    }
 }
