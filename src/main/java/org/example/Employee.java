@@ -30,5 +30,8 @@ public class Employee implements  Human{
         System.out.println("AB positive");
     }
 
-
+    @Override
+    public void motherTongeu() {
+        System.out.println("Telugu");
+    }
 }

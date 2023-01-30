@@ -9,8 +9,6 @@ public interface Human {
     void age();
    void Gender();
    void bloodGroup();
-
-
    void motherTongeu();
 
 
