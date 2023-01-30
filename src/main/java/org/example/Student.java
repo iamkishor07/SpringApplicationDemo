@@ -26,11 +26,6 @@ public class Student implements  Human{
         System.out.println("male");
     }
 
-    @Override
-    public void bloodGroup() {
-        System.out.println("O positive");
-    }
-
 
     @Override
     public void motherTongeu() {

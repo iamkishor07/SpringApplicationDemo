@@ -8,8 +8,6 @@ public interface Human {
     void profession();
     void age();
    void Gender();
-   void bloodGroup();
    void motherTongeu();
-
 
 }
