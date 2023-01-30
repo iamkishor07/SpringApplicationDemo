@@ -20,9 +20,4 @@ public class Student implements  Human{
     public void profession() {
         System.out.println("Iam a Student");
     }
-
-    @Override
-    public void gender() {
-        System.out.println("male");
-    }
 }
