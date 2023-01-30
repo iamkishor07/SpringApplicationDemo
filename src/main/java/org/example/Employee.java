@@ -20,7 +20,7 @@ public class Employee implements  Human{
     }
 
     @Override
-    public void gender() {
+    public void Gender() {
         System.out.println("Female");
     }
 }
