@@ -18,4 +18,9 @@ public class Employee implements  Human{
     public void profession() {
         System.out.println("Iam a senior Software Developer");
     }
+
+    @Override
+    public void gender() {
+        System.out.println("Female");
+    }
 }
