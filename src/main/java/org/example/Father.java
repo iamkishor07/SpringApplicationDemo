@@ -19,7 +19,7 @@ public class Father implements  Human{
     }
 
     @Override
-    public void Gender() {
+    public void gender() {
         System.out.println("Male");
     }
 }
