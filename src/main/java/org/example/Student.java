@@ -30,4 +30,5 @@ public class Student implements  Human{
     public void bloodGroup() {
         System.out.println("O positive");
     }
+
 }
