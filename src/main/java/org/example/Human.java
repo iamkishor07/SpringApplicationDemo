@@ -7,5 +7,5 @@ public interface Human {
     void name();
     void profession();
     void age();
-    void Humangender();
+    default void HumanBeingGender(){};
 }
