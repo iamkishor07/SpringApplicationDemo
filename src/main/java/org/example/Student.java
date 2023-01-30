@@ -20,4 +20,15 @@ public class Student implements  Human{
     public void profession() {
         System.out.println("Iam a Student");
     }
+
+    @Override
+    public void Gender() {
+        System.out.println("male");
+    }
+
+    @Override
+    public void bloodGroup() {
+        System.out.println("O positive");
+    }
+
 }
