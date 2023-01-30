@@ -30,6 +30,10 @@ public class Employee implements  Human{
         System.out.println("Telugu");
     }
 
+    @Override
+    public void anytalents() {
+        System.out.println("My other talents are stocks");
+    }
 
     @Override
     public void extafeatures() {

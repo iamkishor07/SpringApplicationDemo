@@ -9,5 +9,7 @@ public interface Human {
     void age();
    void Gender();
    void motherTongeu();
-   void anytalents();
+    void extafeatures();
+
+    void anytalents();
 }
