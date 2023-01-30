@@ -35,4 +35,9 @@ public class Student implements  Human{
     public void salaries() {
         System.out.println("NA i'm a student");
     }
+
+    @Override
+    public void motherTongeu() {
+        System.out.println("Telugu");
+    }
 }
