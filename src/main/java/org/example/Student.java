@@ -30,7 +30,7 @@ public class Student implements  Human{
     }
 
     @Override
-    public void motherTongeu() {
+    public void motherTongue() {
         System.out.println("Telugu");
     }
 }

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
         obj.profession();
         obj.age();
         obj.Gender();
-        obj.motherTongeu();
+        obj.motherTongue();
         obj.extafeatures();
 
     }

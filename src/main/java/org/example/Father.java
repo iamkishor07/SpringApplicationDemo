@@ -28,7 +28,7 @@ public class Father implements  Human{
 
 
     @Override
-    public void motherTongeu() {
+    public void motherTongue() {
         System.out.println("English");
     }
 }
