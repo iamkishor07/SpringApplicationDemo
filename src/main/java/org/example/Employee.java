@@ -23,8 +23,6 @@ public class Employee implements  Human{
     public void Gender() {
         System.out.println("Female");
     }
-
-
     @Override
     public void motherTongeu() {
         System.out.println("Telugu");
