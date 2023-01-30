@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
         obj.profession();
         obj.age();
         obj.Gender();
-        obj.bloodGroup();
         obj.motherTongeu();
 
     }
