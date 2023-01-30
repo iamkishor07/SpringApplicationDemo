@@ -31,10 +31,6 @@ public class Student implements  Human{
         System.out.println("O positive");
     }
 
-    @Override
-    public void salaries() {
-        System.out.println("NA i'm a student");
-    }
 
     @Override
     public void motherTongeu() {

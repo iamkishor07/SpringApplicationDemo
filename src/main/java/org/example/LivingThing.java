@@ -7,14 +7,15 @@ import org.springframework.stereotype.Component;
     @Autowired
     Human obj;
     public  void display(){
-        System.out.println("These are the following Details of an ");
+        System.out.println("These are the following Details");
         obj.name();
+        obj.profession();
         obj.age();
         obj.Gender();
         obj.bloodGroup();
         obj.motherTongeu();
-        obj.profession();
-        obj.salaries();
+
+
 
     }
 }

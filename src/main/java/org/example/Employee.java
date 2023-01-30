@@ -31,11 +31,6 @@ public class Employee implements  Human{
     }
 
     @Override
-    public void salaries() {
-        System.out.println("my current ctc is 10LPA");
-    }
-
-    @Override
     public void motherTongeu() {
         System.out.println("Telugu");
     }
