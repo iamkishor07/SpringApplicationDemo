@@ -22,7 +22,7 @@ public class Student implements  Human{
     }
 
     @Override
-    public void gender() {
+    public void Gender() {
         System.out.println("male");
     }
 }
