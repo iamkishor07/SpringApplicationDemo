@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
         obj.age();
         obj.Gender();
         obj.motherTongeu();
+        obj.extafeatures();
 
     }
 }

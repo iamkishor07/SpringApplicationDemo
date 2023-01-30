@@ -29,4 +29,9 @@ public class Employee implements  Human{
     public void motherTongeu() {
         System.out.println("Telugu");
     }
+
+    @Override
+    public void extafeatures() {
+        System.out.println("I don't have any extra qualities");
+    }
 }
