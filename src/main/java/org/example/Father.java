@@ -33,4 +33,9 @@ public class Father implements  Human{
     public void salaries() {
         System.out.println("my current ctc is 15LPA");
     }
+
+    @Override
+    public void motherTongeu() {
+        System.out.println("English");
+    }
 }

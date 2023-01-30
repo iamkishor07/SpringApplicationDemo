@@ -12,5 +12,7 @@ public interface Human {
 
    void salaries();
 
+   void motherTongeu();
+
 
 }
