@@ -17,9 +17,4 @@ public class Father implements  Human{
     public void age() {
         System.out.println("Iam 25 years old");
     }
-
-    @Override
-    public void Gender() {
-        System.out.println("Male");
-    }
 }

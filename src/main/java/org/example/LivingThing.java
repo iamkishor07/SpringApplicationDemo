@@ -11,6 +11,5 @@ import org.springframework.stereotype.Component;
         obj.name();
         obj.profession();
         obj.age();
-        obj.Gender();
     }
 }
