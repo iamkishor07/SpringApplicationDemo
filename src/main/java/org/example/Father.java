@@ -22,9 +22,7 @@ public class Father implements  Human{
     public void Gender() {
         System.out.println("Male");
     }
-    public void extafeatures() {
-        System.out.println("I've only few extra qualities");
-    }
+
 
 
     @Override

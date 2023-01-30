@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="">
+    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="added anytalents method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Human.java" afterDir="false" />
