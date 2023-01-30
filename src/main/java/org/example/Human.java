@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component;
     void name();
     void profession();
     void age();
-    void gender();
+    void Humangender();
 }
