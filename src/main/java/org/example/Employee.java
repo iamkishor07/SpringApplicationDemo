@@ -35,8 +35,4 @@ public class Employee implements  Human{
         System.out.println("My other talents are stocks");
     }
 
-    @Override
-    public void extafeatures() {
-        System.out.println("I don't have any extra qualities");
-    }
 }

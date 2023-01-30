@@ -25,9 +25,7 @@ public class Student implements  Human{
     public void Gender() {
         System.out.println("male");
     }
-    public void extafeatures() {
-        System.out.println("I've extra qualities");
-    }
+
 
     @Override
     public void motherTongeu() {
