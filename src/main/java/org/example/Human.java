@@ -10,4 +10,7 @@ public interface Human {
    void Gender();
    void bloodGroup();
 
+   void salaries();
+
+
 }

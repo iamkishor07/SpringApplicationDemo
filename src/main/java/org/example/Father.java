@@ -29,4 +29,8 @@ public class Father implements  Human{
         System.out.println("B positive");
     }
 
+    @Override
+    public void salaries() {
+        System.out.println("my current ctc is 15LPA");
+    }
 }
