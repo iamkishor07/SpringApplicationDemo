@@ -23,4 +23,9 @@ public class Employee implements  Human{
     public void Gender() {
         System.out.println("Female");
     }
+
+    @Override
+    public void bloodGroup() {
+        System.out.println("AB positive");
+    }
 }

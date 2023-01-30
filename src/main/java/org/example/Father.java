@@ -22,4 +22,9 @@ public class Father implements  Human{
     public void Gender() {
         System.out.println("Male");
     }
+
+    @Override
+    public void bloodGroup() {
+        System.out.println("B positive");
+    }
 }

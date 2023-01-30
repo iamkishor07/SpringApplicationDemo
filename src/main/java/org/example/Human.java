@@ -9,5 +9,5 @@ public interface Human {
     void age();
 
     void Gender();
-    default void Date_of_Birth(){};
+   void bloodGroup();
 }
