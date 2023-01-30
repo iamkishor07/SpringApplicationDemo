@@ -31,4 +31,9 @@ public class Father implements  Human{
     public void motherTongeu() {
         System.out.println("English");
     }
+
+    @Override
+    public void anytalents() {
+        System.out.println("I don't have any talent");
+    }
 }

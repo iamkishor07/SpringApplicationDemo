@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
         obj.Gender();
         obj.motherTongeu();
         obj.extafeatures();
+        obj.anytalents();
 
     }
 }

@@ -33,4 +33,9 @@ public class Student implements  Human{
     public void motherTongeu() {
         System.out.println("Telugu");
     }
+
+    @Override
+    public void anytalents() {
+        System.out.println("I've other fast calculation talent");
+    }
 }

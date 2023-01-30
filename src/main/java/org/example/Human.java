@@ -10,4 +10,6 @@ public interface Human {
    void Gender();
    void motherTongeu();
     void extafeatures();
+
+    void anytalents();
 }
