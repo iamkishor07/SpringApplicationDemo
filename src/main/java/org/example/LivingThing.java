@@ -15,7 +15,5 @@ import org.springframework.stereotype.Component;
         obj.bloodGroup();
         obj.motherTongeu();
 
-
-
     }
 }
