@@ -33,11 +33,6 @@ public class Employee implements  Human{
 
 
     @Override
-    public void motherTongue() {
-        System.out.println("Telugu");
-    }
-
-    @Override
     public void anytalents() {
         System.out.println("My other talents are stocks");
     }

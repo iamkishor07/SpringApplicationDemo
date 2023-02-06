@@ -1,0 +1,107 @@
+Index: src/main/java/org/example/Student.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport org.springframework.context.annotation.Primary;\r\nimport org.springframework.stereotype.Component;\r\n\r\n@Component\r\n@Primary\r\npublic class Student implements  Human{\r\n    @Override\r\n    public void age() {\r\n        System.out.println(\"Iam 16 Years old\");\r\n    }\r\n\r\n    @Override\r\n    public void name() {\r\n        System.out.println(\"Iam Kishor\");\r\n    }\r\n\r\n    @Override\r\n    public void profession() {\r\n        System.out.println(\"Iam a Student\");\r\n    }\r\n\r\n    @Override\r\n    public void Gender() {\r\n        System.out.println(\"male\");\r\n    }\r\n    public void extafeatures() {\r\n        System.out.println(\"I've extra qualities\");\r\n    }\r\n\r\n    @Override\r\n    public void motherTongue() {\r\n        System.out.println(\"Telugu\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Student.java b/src/main/java/org/example/Student.java
+--- a/src/main/java/org/example/Student.java	(revision 35844815cb4bbbf5f3ea77287a882cd9b9b4c22d)
++++ b/src/main/java/org/example/Student.java	(date 1675663870634)
+@@ -4,7 +4,6 @@
+ import org.springframework.stereotype.Component;
+ 
+ @Component
+-@Primary
+ public class Student implements  Human{
+     @Override
+     public void age() {
+Index: src/main/java/org/example/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport org.springframework.stereotype.Component;\r\n\r\n@Component\r\npublic class Employee implements  Human{\r\n    @Override\r\n    public void age() {\r\n        System.out.println(\"Iam 35 years old\");\r\n    }\r\n\r\n    @Override\r\n    public void name() {\r\n        System.out.println(\"Iam Mahesh\");\r\n    }\r\n\r\n    @Override\r\n    public void profession() {\r\n        System.out.println(\"Iam a senior Software Developer\");\r\n    }\r\n\r\n    @Override\r\n    public void Gender() {\r\n        System.out.println(\"Female\");\r\n    }\r\n\r\n\r\n    @Override\r\n    public void motherTongue() {\r\n        System.out.println(\"Telugu\");\r\n    }\r\n\r\n    @Override\r\n    public void extafeatures() {\r\n        System.out.println(\"I don't have any extra qualities\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Employee.java b/src/main/java/org/example/Employee.java
+--- a/src/main/java/org/example/Employee.java	(revision 35844815cb4bbbf5f3ea77287a882cd9b9b4c22d)
++++ b/src/main/java/org/example/Employee.java	(date 1675664020598)
+@@ -1,8 +1,10 @@
+ package org.example;
+ 
++import org.springframework.context.annotation.Primary;
+ import org.springframework.stereotype.Component;
+ 
+ @Component
++@Primary
+ public class Employee implements  Human{
+     @Override
+     public void age() {
+Index: src/main/java/org/example/LivingThing.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Component;\r\n\r\n@Component public class LivingThing {\r\n    @Autowired\r\n    Human obj;\r\n    public  void display(){\r\n        System.out.println(\"These are the following Details\");\r\n        obj.name();\r\n        obj.profession();\r\n        obj.age();\r\n        obj.Gender();\r\n        obj.motherTongue();\r\n        obj.extafeatures();\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/LivingThing.java b/src/main/java/org/example/LivingThing.java
+--- a/src/main/java/org/example/LivingThing.java	(revision 35844815cb4bbbf5f3ea77287a882cd9b9b4c22d)
++++ b/src/main/java/org/example/LivingThing.java	(date 1675663970763)
+@@ -5,15 +5,15 @@
+ 
+ @Component public class LivingThing {
+     @Autowired
+-    Human obj;
++    Human student;
+     public  void display(){
+         System.out.println("These are the following Details");
+-        obj.name();
+-        obj.profession();
+-        obj.age();
+-        obj.Gender();
+-        obj.motherTongue();
+-        obj.extafeatures();
++        student.name();
++        student.profession();
++        student.age();
++        student.Gender();
++        student.motherTongue();
++        student.extafeatures();
+ 
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dd32ddde-d752-4496-93da-1d63135b6a53\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Employee.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Employee.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Father.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Father.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Human.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Human.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/LivingThing.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/LivingThing.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Student.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Student.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"changed gender to Gender method name in all the implemented interface classes\">\r\n      <created>1675061331725</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675061331725</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"salaries method reverted\">\r\n      <created>1675072843863</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675072843863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8\">\r\n      <created>1675073843074</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675073843074</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"changed gender to Gender method name in all the implemented interface classes\" />\r\n    <MESSAGE value=\"Revert &quot;new method added called &quot;salaries&quot; in all classes and interface&quot;&#10;&#10;This reverts commit 3b3bcc5e\" />\r\n    <MESSAGE value=\"salaries method reverted\" />\r\n    <MESSAGE value=\"Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 35844815cb4bbbf5f3ea77287a882cd9b9b4c22d)
++++ b/.idea/workspace.xml	(date 1675663814230)
+@@ -4,13 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Human.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LivingThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LivingThing.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+-    </list>
++    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="added annotations primary ,quantifer and defined scope of the class" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -68,6 +62,7 @@
+     <MESSAGE value="Revert &quot;new method added called &quot;salaries&quot; in all classes and interface&quot;&#10;&#10;This reverts commit 3b3bcc5e" />
+     <MESSAGE value="salaries method reverted" />
+     <MESSAGE value="Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8" />
++    <MESSAGE value="added annotations primary ,quantifer and defined scope of the class" />
++    <option name="LAST_COMMIT_MESSAGE" value="added annotations primary ,quantifer and defined scope of the class" />
+   </component>
+ </project>
+\ No newline at end of file

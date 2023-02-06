@@ -26,15 +26,17 @@ public class Father implements  Human{
     public void Gender() {
         System.out.println("Male");
     }
+
+    @Override
+    public void motherTongeu() {
+        System.out.println("Telugu");
+    }
+
     public void extafeatures() {
         System.out.println("I've only few extra qualities");
     }
 
-
-    @Override
-    public void motherTongue() {
-        System.out.println("English");
-    }
+    
 
     @Override
     public void anytalents() {
