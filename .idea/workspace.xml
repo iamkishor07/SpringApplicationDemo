@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="add the description to the methods in the interfaces">
+    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="added annotations primary ,quantifer and defined scope of the class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LivingThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LivingThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +78,6 @@
       <option name="project" value="LOCAL" />
       <updated>1675073843074</updated>
     </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="add the description to the methods in the interfaces" />
-      <created>1675243626301</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1675243626301</updated>
-    </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
@@ -109,6 +97,7 @@
     <MESSAGE value="Revert &quot;new method added called &quot;salaries&quot; in all classes and interface&quot;&#10;&#10;This reverts commit 3b3bcc5e" />
     <MESSAGE value="salaries method reverted" />
     <MESSAGE value="Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8" />
+    <MESSAGE value="added annotations primary ,quantifer and defined scope of the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotations primary ,quantifer and defined scope of the class" />
   </component>
 </project>

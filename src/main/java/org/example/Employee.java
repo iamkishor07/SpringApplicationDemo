@@ -1,8 +1,10 @@
 package org.example;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class Employee implements  Human{
     @Override
     public void age() {
@@ -22,6 +24,11 @@ public class Employee implements  Human{
     @Override
     public void Gender() {
         System.out.println("Female");
+    }
+
+    @Override
+    public void motherTongeu() {
+        System.out.println("Telugu");
     }
 
 

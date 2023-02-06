@@ -36,14 +36,17 @@ public class Student implements  Human{
     public void Gender() {
         System.out.println("male");
     }
+
+    @Override
+    public void motherTongeu() {
+        System.out.println("Telugu");
+    }
+
     public void extafeatures() {
         System.out.println("I've extra qualities");
     }
 
-    @Override
-    public void motherTongue() {
-        System.out.println("Telugu");
-    }
+
 
     @Override
     public void anytalents() {
