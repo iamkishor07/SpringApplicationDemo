@@ -1,12 +1,14 @@
-package org.example;
+package org.example.Basic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope("prototype") //By default, everything is singleton scope so,that we've to define the scope to prototype
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope("prototype") //By default, everything is singleton scope so,that we've to define the scope to prototype
 //the it creates new bean for every request from the container/application context
 public class LivingThing {
     @Autowired

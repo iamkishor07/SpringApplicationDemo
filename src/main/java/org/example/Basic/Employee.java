@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Basic;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
