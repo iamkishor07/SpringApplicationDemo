@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="performed different ways of scopes and complex scopes" />
+    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="performed different ways of scopes and complex scopes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_directory_selection": "C:/Users/KishorKumar/IdeaProjects/SpringApplicationDemo/src/main/java/org",
     "last_opened_file_path": "C:/Users/KishorKumar/IdeaProjects/Alien",
-    "settings.editor.selected.configurable": "http.proxy"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,11 +57,12 @@
       <recent name="org.example.scope" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.scope" />
+      <recent name="org.ComponentScan" />
       <recent name="org.example" />
+      <recent name="org.example.scope" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringComponentScan">
+  <component name="RunManager" selected="Application.SpringPostandPreConstructorDemo">
     <configuration name="SpringBasicApplicationDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SpringBasicApplicationDemo" />
       <module name="SpringApplicationDemo" />
@@ -81,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringPostandPreConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SpringPostandPreConstructorDemo" />
+      <module name="SpringApplicationDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringScopeApplicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SpringScopeApplicationDemo" />
       <module name="SpringApplicationDemo" />
@@ -96,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringPostandPreConstructorDemo" />
         <item itemvalue="Application.SpringComponentScan" />
         <item itemvalue="Application.SpringScopeApplicationDemo" />
       </list>
@@ -159,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675680672572</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="performed different ways of scopes and complex scopes">
+      <created>1675681624061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675681624061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +213,86 @@
     <MESSAGE value="ComponentScan annotation used" />
     <MESSAGE value="performed different ways of scopes and complex scopes" />
     <option name="LAST_COMMIT_MESSAGE" value="performed different ways of scopes and complex scopes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyDemo.java</url>
+          <line>36</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyDemo" method="PreDestroy">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyJdbcConnection.java</url>
+          <line>16</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyJdbcConnection" method="save">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyJdbcConnection.java</url>
+          <line>20</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyJdbcConnection" method="display">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyJdbcConnection.java</url>
+          <line>21</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyJdbcConnection" method="Close">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyDemo.java</url>
+          <line>26</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyDemo" method="postConstruct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyDemo.java</url>
+          <line>14</line>
+          <properties class="org.Constructor.PostConstructor_PreDestroyDemo" method="getObj">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SpringPostandPreConstructorDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SpringPostandPreConstructorDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Constructor/PostConstructor_PreDestroyJdbcConnection.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

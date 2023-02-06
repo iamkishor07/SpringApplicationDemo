@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "org.ComponentScan")
+@ComponentScan(basePackages = "org.Constructor")
 //It is used to specify the path to the container in which it needs to search for the beans or components
 //in the specified directory
 //if it is not set properly it may throws bean not found exception
