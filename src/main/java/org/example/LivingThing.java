@@ -21,6 +21,7 @@ public class LivingThing {
         obj.Gender();
         obj.motherTongeu();
         obj.anytalents();
+        obj.extafeatures();
 
     }
 }
