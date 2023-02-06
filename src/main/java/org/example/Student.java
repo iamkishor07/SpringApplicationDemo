@@ -1,11 +1,22 @@
 package org.example;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+//@Primary
+@Qualifier("stud") //another alternative to primary if we have multiple class with same interface then
+    //we can usse the quantifer annotation so that which obj has to created at the runnig time by giving the
+// writing the quantifier at the autowired
 public class Student implements  Human{
+
+//    private Student() {
+//        System.out.println("Iam private constructor");
+//    }
+
+
     @Override
     public void age() {
         System.out.println("Iam 16 Years old");
