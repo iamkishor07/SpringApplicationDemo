@@ -1,5 +1,6 @@
 package org.example;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -8,6 +9,7 @@ public interface Human {
     void profession();
     void age();
    void Gender();
-   void motherTongue();
+   void motherTongeu();
+   void anytalents();
     void extafeatures();
 }

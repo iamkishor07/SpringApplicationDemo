@@ -1,8 +1,12 @@
 package org.example;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+//@Primary //It has higher priority overthe type mentioned at the object reference in the autowired
+@Qualifier("father")
 public class Father implements  Human{
     public void name(){
         System.out.println("My name is Srinivas");
@@ -30,5 +34,10 @@ public class Father implements  Human{
     @Override
     public void motherTongue() {
         System.out.println("English");
+    }
+
+    @Override
+    public void anytalents() {
+        System.out.println("I don't have any talent");
     }
 }
