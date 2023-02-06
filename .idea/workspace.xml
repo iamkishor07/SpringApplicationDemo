@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="added the mother tongue method in human interface">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basic/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basic/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basic/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LivingThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basic/LivingThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBasicApplicationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basic/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd32ddde-d752-4496-93da-1d63135b6a53" name="Changes" comment="performed different ways of scopes and complex scopes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +124,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675073843074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed directory">
+      <created>1675680494469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675680494469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed directory">
+      <created>1675680503355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675680503355</updated>
+    </task>
+    <task id="LOCAL-00006" summary="made some changes">
+      <created>1675680516435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675680516435</updated>
+    </task>
+    <task id="LOCAL-00007" summary="made some changes">
+      <created>1675680521140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675680521140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="performed different ways of scopes and complex scopes">
+      <created>1675680672572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675680672572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +179,11 @@
     <MESSAGE value="salaries method reverted" />
     <MESSAGE value="Revert &quot;added feature blood group method&quot;&#10;&#10;This reverts commit 26f80bc8" />
     <MESSAGE value="added annotations primary ,quantifer and defined scope of the class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added annotations primary ,quantifer and defined scope of the class" />
+    <MESSAGE value="changed directory" />
+    <MESSAGE value="made some changes" />
+    <MESSAGE value="ComponentScan annotation used" />
+    <MESSAGE value="performed different ways of scopes and complex scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="performed different ways of scopes and complex scopes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
