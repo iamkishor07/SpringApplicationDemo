@@ -34,7 +34,7 @@ import javax.annotation.PreDestroy;
     //Same as with @PostConstruct, the methods annotated with @PreDestroy can have any access level, but can't be static.
     //purpose of this method should be to release resources or perform other cleanup tasks, such as closing a database connection,
     // before the bean gets destroyed.
-    public  void PreDestroy(){
+    public  void preDestroy(){
         System.out.println("Iam a PreDestroy Method ");
         obj.Close();
     }
